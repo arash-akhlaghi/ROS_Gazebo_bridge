@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>gate3_position_publisher</name>
+  <version>0.0.1</version>
+  <description>Publishes gate positions using custom my_bridge_msgs messages</description>
+
+  <maintainer email="you@example.com">Your Name</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>geometry_msgs</depend>
+  <depend>my_bridge_msgs</depend>
+
+</package>
